@@ -7,47 +7,27 @@
 
 Примітка: Перед цим необхідно інсталювати Postman Agent, щоб тестувати запроси на локальному сервері.
 
-### Отримання інформації по всім Useram
+### Отримання інформації по всім Permissions
 
-<img src="./media_labs6/Users.png">
+<img src="./lab6/get.png">
 
-<img src="./media_labs6/Users1.png">
+### Створення нового Permission
 
-### Отримання інформації по id Usera
+<img src="./lab6/post1.png">
 
-<img src="./media_labs6/User_id.png">
+<img src="./lab6/post2.png">
 
-### Створення нового юзера
+#### Помилка створення permission по причині: "Ідентифікатор вже зайнятий"
 
-<img src="./media_labs6/User_created.png">
+<img src="./lab6/error.png">
 
-#### Помилка створення юзера по причині: "Така пошта вже існує"
+### Видалення permission
 
-<img src="./media_labs6/User_email.png">
+<img src="./lab6/delete.png">
 
-#### Помилка створення юзера по причині: "Такий нікнейм вже існує"
+### Вміст таблиці 'Permissions' у базі 'quiz' даних після видалення permission
 
-<img src="./media_labs6/User_nickname.png">
-
-### Видалення юзеру
-
-<img src="./media_labs6/User_delete.png">
-
-#### Помилка видалення юзеру по причині: "Такого юзеру не знайдено"
-
-<img src="./media_labs6/User_not_found.png">
-
-### Вміст таблиці 'User' у базі 'quiz' даних після видалення юзеру
-
-<img src="./media_labs6/User_delete_SQL.png">
-
-### Оновлення юзеру
-
-<img src="./media_labs6/User_update.png">
-
-### Вміст таблиці 'User' у базі 'quiz'  даних після виконання усіх операцій
-
-<img src="./media_labs6/Users_SQL.png">
+<img src="./lab6/get-after-del.png">
 
 
 
